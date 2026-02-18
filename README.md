@@ -77,10 +77,13 @@ Quantile Output Heads (Q10, Q50, Q90)
 ├── requirements.txt                 # Dependencies
 ├── Data/
 │   └── Final_dataset_ERCOT_v2.csv   # ERCOT load + weather data
-└── results/                         # Checkpoints and plots
-    ├── best_hybrid_model.pth
-    ├── hybrid_cnn_transformer_quantile_extreme_ercot.pth
-    └── [evaluation plots]
+├── Notebook Experiment/
+│   └── ercot_hybrid_forecast.ipynb  # Experiment notebook copy
+├── results/                         # Checkpoints and plots
+│   ├── best_hybrid_model.pth
+│   ├── hybrid_cnn_transformer_quantile_extreme_ercot.pth
+│   └── [evaluation plots]
+└── __pycache__/                     # Python bytecode cache
 ```
 
 ---
