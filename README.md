@@ -177,7 +177,7 @@ Extreme Temperature            1286           1546.48       5315.49         70.9
 Diebold-Mariano Test:
   Test Statistic: 52.914958
   P-value: 0.000000
-  Conclusion: Hybrid model is SIGNIFICANTLY better than LSTM (p < 0.05) ✓
+  Conclusion: Hybrid model is SIGNIFICANTLY better than LSTM (p < 0.05) 
 
 6. DETAILED RESIDUAL STATISTICS
 --------------------------------------------------------------------------------
