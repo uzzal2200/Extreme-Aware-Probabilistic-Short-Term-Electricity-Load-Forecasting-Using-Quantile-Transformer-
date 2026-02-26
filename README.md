@@ -143,10 +143,10 @@ Hybrid CNN-Transformer with Quantile Output
 1. DETERMINISTIC FORECASTING METRICS
 --------------------------------------------------------------------------------
 Metric                    Hybrid               LSTM                 Improvement
-MAE (MWh)                     998.3573            2120.90         52.22%
-RMSE (MWh)                    1490.9717           2935.46         48.81%
-MAPE (%)                        1.8548             3.7295         49.73%
-R2 Score                        0.9805             0.9246          6.02%
+MAE (MWh)                     998.3573            2047.4516        52.22%
+RMSE (MWh)                    1490.9717           2838.2564        48.81%
+MAPE (%)                        1.8548             3.62        49.73%
+R2 Score                        0.9805            0.9295         6.02%
 
 2. PROBABILISTIC FORECASTING METRICS
 --------------------------------------------------------------------------------
