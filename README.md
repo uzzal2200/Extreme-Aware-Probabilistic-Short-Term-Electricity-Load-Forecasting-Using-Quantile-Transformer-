@@ -43,7 +43,7 @@ This repository provides a professional, end-to-end implementation of an extreme
 
 **Probabilistic Metrics**
 - Prediction Interval Coverage: 76.05%
-- CRPS: 660.5
+- CRPS: 646.0487
 - Extreme Condition Improvement: 70.9% better than LSTM
 
 ---
@@ -143,24 +143,24 @@ Hybrid CNN-Transformer with Quantile Output
 1. DETERMINISTIC FORECASTING METRICS
 --------------------------------------------------------------------------------
 Metric                    Hybrid               LSTM                 Improvement
-MAE (MWh)                     1013.27            2120.90         52.22%
-RMSE (MWh)                    1502.74            2935.46         48.81%
-MAPE (%)                        1.8748             3.7295         49.73%
-R2 Score                        0.9802             0.9246          6.02%
+MAE (MWh)                     998.3573            2120.90         52.22%
+RMSE (MWh)                    1490.9717           2935.46         48.81%
+MAPE (%)                        1.8548             3.7295         49.73%
+R2 Score                        0.9805             0.9246          6.02%
 
 2. PROBABILISTIC FORECASTING METRICS
 --------------------------------------------------------------------------------
-Pinball Loss (q10)                             216.2994
-Pinball Loss (q50)                             506.6355
-Pinball Loss (q90)                             267.8093
-Total Pinball Loss                             990.7442
-CRPS (Continuous Ranked Probability Score)     660.4961
-PICP (Prediction Interval Coverage %)           76.05%
+Pinball Loss (q10)                             216.0567
+Pinball Loss (q50)                             499.1787
+Pinball Loss (q90)                             253.8377
+Total Pinball Loss                             969.0731
+CRPS (Continuous Ranked Probability Score)     646.0487
+PICP (Prediction Interval Coverage %)           77.39%
 Average Prediction Interval Width              2837.11 MWh
 
 3. PREDICTION INTERVAL ANALYSIS
 --------------------------------------------------------------------------------
-Coverage (Target: 80%)                           76.05%
+Coverage (Target: 80%)                           77.39%
 Lower Bound Violation Rate                        9.33%
 Upper Bound Violation Rate                       14.62%
 Target Violation Rate (20%)                      23.95%
